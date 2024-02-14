@@ -28,3 +28,9 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Composable
+fun NavGraph(){
+
+
+}

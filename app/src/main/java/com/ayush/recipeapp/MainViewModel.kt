@@ -12,7 +12,6 @@ class MainViewModel : ViewModel() {
     private val _categoryState = mutableStateOf(RecipeState())
     val categoriesState: State<RecipeState> = _categoryState
 
-
     init {
         fetchCategories()
     }
